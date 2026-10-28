@@ -1,13 +1,24 @@
+# Secrets
 .env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
 .venv/
-__pycache__/
-*.pyc
-agent_memory.json
-.vscode/
-.env
-.venv/
-.vscode/
+venv/
 __pycache__/
 *.pyc
 .pytest_cache/
+
+# Local data
 agent_memory.json
+trace.jsonl
+
+# Editor
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
